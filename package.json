@@ -4,7 +4,8 @@
     "deploy": "wrangler deploy",
     "d1:create": "wrangler d1 create htmx-todo",
     "d1:execute": "wrangler d1 execute htmx-todo --local --file=todo.sql",
-    "d1:deploy": "wrangler d1 execute htmx-todo --file=todo.sql"
+    "d1:deploy": "wrangler d1 execute htmx-todo --file=todo.sql",
+    "d1:delete": "wrangler d1 delete htmx-todo"
   },
   "dependencies": {
     "@hono/zod-validator": "^0.1.9",
