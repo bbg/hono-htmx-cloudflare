@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "dev": "wrangler dev --live-reload",
+    "deploy": "wrangler deploy",
+    "d1:create": "wrangler d1 create htmx-todo",
+    "d1:execute": "wrangler d1 execute htmx-todo --local --file=todo.sql",
+    "d1:deploy": "wrangler d1 execute htmx-todo --file=todo.sql"
+  },
+  "dependencies": {
+    "@hono/zod-validator": "^0.1.9",
+    "hono": "^3.8.0-rc.2",
+    "sharp": "^0.32.6",
+    "zod": "^3.21.4"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20231025.0",
+    "wrangler": "^3.11.0"
+  }
+}

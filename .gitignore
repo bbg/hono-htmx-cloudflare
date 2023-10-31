@@ -1,0 +1,6 @@
+.wrangler
+node_modules
+yarn-error.log
+yarn.lock
+wrangler.toml
+package-lock.json
